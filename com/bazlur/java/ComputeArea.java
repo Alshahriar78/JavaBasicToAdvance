@@ -1,4 +1,6 @@
-// import java.util.Scanner;
+package com.bazlur.java;
+
+import java.util.Scanner;
 public class ComputeArea {
 
     public static void main(String[] args){
@@ -10,17 +12,17 @@ public class ComputeArea {
     static double CircleArea(){
         Scanner scanner = new Scanner(System.in);
         double radius;
-        System.out.println("Enter The circle Radios:");
+        System.out.print("Enter The circle Radios:");
         radius = scanner.nextDouble();
         return radius*radius *3.14159;
     }
     static double RectangleArea(){
         Scanner scanner = new Scanner(System.in);
         double length;
-        System.out.println("Enter the length of Rectangle: ");
+        System.out.print("Enter the length of Rectangle: ");
         length = scanner.nextDouble();
         double width;
-        System.out.println("Enter the length of Rectangle: ");
+        System.out.print("Enter the length of Rectangle: ");
         width = scanner.nextDouble();
         return length * width;
     }
