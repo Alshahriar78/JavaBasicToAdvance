@@ -1,4 +1,4 @@
-package com.bazlur.java.OOP;
+package com.bazlur.java.OOP.inheritance;
 
 public class Human {
    private String name;
@@ -8,6 +8,9 @@ public class Human {
        System.out.println("Name: " + name);
        System.out.println("Age: " + age);
    }
+    public void getColor() {
+        System.out.println("Green");
+    }
 
    Human(String name, int age){
        this.name = name;
