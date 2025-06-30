@@ -1,1 +1,0 @@
-Array is fundamental of Data Structure that stores multiple values.

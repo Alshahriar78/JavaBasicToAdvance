@@ -1,0 +1,24 @@
+Creating, Initializing, and Accessing an Array.
+
+Arrays can be declared and initialized in several ways: declaration.
+
+    Declaration
+    dataType[] arrayName;
+
+
+    Initialization with a fixed size.
+    int[] numbers = new int[5];
+
+    Initialization with values.
+    String names = {"Sourov","Saikat","Shaon","Arafat"};
+
+    Accessing Elements:
+    String name = names[0];
+
+    Modifying/Update Elements:
+
+    name [4] = "Mehedi";
+
+
+
+
