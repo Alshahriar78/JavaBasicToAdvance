@@ -1,4 +1,4 @@
-package com.bazlur.java.array;
+package com.bazlur.java.array.single_dimentional_array;
 
 import java.util.Arrays;
 
